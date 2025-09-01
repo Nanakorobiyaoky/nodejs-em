@@ -1,4 +1,5 @@
 const obj = {}
-let isEmppty = false;
-...
+let isEmpty = Object.keys(obj).length === 0
+
+
 console.log(isEmpty)
