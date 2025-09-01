@@ -1,3 +1,4 @@
-const a = 0;
+const a = 0
 const b = 0
-const c = ...
+const c = a + b > 100
+console.log(c ? 'да' : 'нет')
